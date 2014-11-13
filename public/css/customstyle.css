@@ -1,0 +1,150 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue";
+  font-size: 14px; }
+
+.maincontainer {
+  float: left;
+  width: 100%; }
+
+.headermenu {
+  width: 100%;
+  float: left;
+  margin-bottom: 10px; }
+
+.menuitem {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  text-align: center; }
+
+.menuitem a:hover {
+  background-color: green;
+  color: #fff; }
+
+.menuitem a:visited {
+  background-color: green; }
+
+.active {
+  background-color: green;
+  color: #ffffff; }
+
+.tabheader {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.tabheader label {
+  width: 96.4%;
+  float: left;
+  padding: 5px;
+  background-color: #F3F1F1;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 25px; }
+
+.hidegrid {
+  border: 1px solid #E2E2E2;
+  background-image: url("/images/pluse.jpg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 5px; }
+
+.showedgrid {
+  /*border: 1px solid #E2E2E2;*/
+  background-image: url("/images/mines.jpg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 5px; }
+
+.table {
+  float: left;
+  width: 98.7%;
+  border: 1px solid #E2E2E2;
+  margin-bottom: 10px; }
+
+.tr div {
+  float: left;
+  width: 9%;
+  padding: 5px; }
+
+.trhead div {
+  float: left;
+  width: 9%;
+  padding: 5px; }
+
+#title div {
+  font-weight: bold;
+  text-decoration: underline; }
+
+.column1 {
+  border-right: 1px solid #E2E2E2; }
+
+.symbol {
+  background-image: url("/images/arrow.jpg");
+  background-repeat: no-repeat;
+  background-size: 15px 12px;
+  background-position: 95px; }
+
+.hcontainer {
+  float: left;
+  width: 98.7%;
+  background-color: #F3F1F1;
+  border: 1px solid #E2E2E2; }
+
+.hcmarket {
+  float: left;
+  width: 47%; }
+
+.changetxt {
+  font-weight: normal;
+  text-decoration: underline; }
+
+.microtext label {
+  float: left;
+  width: 8%;
+  font-weight: normal;
+  border-right: 1px solid #E2E2E2; }
+
+.symboltxt {
+  float: left;
+  width: 16%;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  border-right: 1px solid #E2E2E2; }
+
+.viewtxt label {
+  float: left;
+  width: 15%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: normal;
+  border-right: 1px solid #E2E2E2; }
+
+.minmaxtxt {
+  float: left;
+  width: 3%;
+  border-right: 1px solid #E2E2E2;
+  padding: 2px 5px; }
+
+.settingstxt {
+  float: left;
+  width: 3%;
+  padding: 2px 5px; 
+}
+.tr {
+  float: left;
+  width: 100%;
+}
+.tr:nth-child(odd)
+{
+  background:#ffffff;
+}
+.tr:nth-child(even)
+{
+  background:#F3F1F1;
+}
+.tr .column2, .tr .column3, .tr .column4, .tr .column5, .tr .column6, .tr .column7, .tr .column8, .tr .column9 {
+  border-right: 1px solid #FFFFFF;
+}
